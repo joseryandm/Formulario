@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    margin-left: 5%;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-left: 30%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,
+button {
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    display: block;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="password"],
+.campo input[type="date"],
+.campo input[type="number"] {
+    padding: 0.2em;
+    display: block;
+}
+
+.campo input:focus {
+    background: whitesmoke;
+}
+
+.botao {
+    font-size: 1.2em;
+    border: 0;
+    margin-bottom: 2em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+}
+
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.button {
+    font-size: 1.2em;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+}
+
+.button:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#nome,
+#email,
+#senha,
+#estado,
+#cidade,
+#bairro,
+#logradouro,
+#complemento {
+    width: 50%;
+}
+
+#numero {
+    width: 10%;
+}
+
+#cep {
+    position: absolute;
+    width: 6.5%;
+}
+
+.btt {
+    position: relative;
+    margin-left: 100px;
+    font-size: 1em;
+    border: 0;
+    margin-bottom: 1em;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px black;
+    color: black;
+    width: 12%;
+}
+
+.btt:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgb(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+#msg {
+    color: red;
+    padding: 5px 10px;
+    display: none;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
